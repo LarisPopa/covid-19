@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.countryName{
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+@media (min-width: 320px) {
+  .imgLogo{
+    width: 200px;
+    margin-top: 10px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  .pieDiagram{
+    width: 400px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .lineDiagram{
+    widows: 350px;
+    height: 80px;
+  }
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+@media (min-width: 480px) {
+  .imgLogo{
+    width: 250px;
+    margin-top: 10px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  .pieDiagram{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .lineDiagram{
+    width: 400px;
+    height: 100px;
+  }
+  /* smartphones, Android phones, landscape iPhone */
+}
+@media (min-width: 600px) {
+  .imgLogo{
+    width: 300px;
+    margin-top: 10px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .pieDiagram{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .lineDiagram{
+    width: 520px;
+    height: 130px;
+  }
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+@media (min-width: 801px) {
+  .imgLogo{
+    width: 320px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+  }
+  .pieDiagram{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .lineDiagram{
+    widows: 780px;
+    height: 400px;
+  }
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  .imgLogo{
+    width: 400px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+  }
+  .pieDiagram{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .lineDiagram{
+    width: 780px;
+    height: 400px;
+  }
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  .imgLogo{
+    width: 450px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+  }
+  .pieDiagram{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .lineDiagram{
+    width: 780px;
+    height: 400px;
+  }
+  /* hi-res laptops and desktops */
+}
